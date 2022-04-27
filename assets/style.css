@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedorWeb{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 150px auto;
+    grid-template-areas: ;
+
+}
+.navegador{
+
+}
+.contenidoPrincipal{
+
+}
