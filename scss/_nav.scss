@@ -18,7 +18,7 @@
         display: flex;
         align-items: center;
         i{
-            color: $colorsecundario;
+            color: $colorletranav;
             margin-right: 10px;
         }
     }
@@ -51,7 +51,7 @@
         a{
             font-size: 14px;
             text-decoration: none;
-            color: $colorsecundario;
+            color: $colorletranav;
             font-family: "fuente1";
         }
     }
@@ -62,11 +62,11 @@
         justify-content: end;
         h3{
             font-family: "fuente1";
-            font-size: 15px;
+            font-size: 13px;
         }
         h5{
             font-family: "fuente2";
-            font-size: 11px;
+            font-size: 10px;
         }
     }
     
