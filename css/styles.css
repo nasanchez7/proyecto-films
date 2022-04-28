@@ -1,0 +1,144 @@
+/*Grillas desktop*/
+.contenedorWeb {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 200px auto;
+  grid-template-areas: "nav main";
+}
+
+.contenedorPrincipal {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr 1fr 200px;
+  grid-template-areas: "principal principal principal busqueda" "secundario secundario secundario busqueda";
+}
+
+/*Fuentes*/
+@font-face {
+  font-family: "fuente1";
+  src: url(../assets/fonts/sf-compact-display-medium.otf);
+}
+
+@font-face {
+  font-family: "fuente2";
+  src: url(../assets/fonts/sf-compact-display-thin.otf);
+}
+
+/*Estilos Main*/
+.contenidoPrincipal {
+  grid-area: main;
+  width: 100%;
+}
+
+.peliculasPrincipales {
+  grid-area: principal;
+  height: 400px;
+  width: 100%;
+}
+
+.peliculasSecundarias {
+  grid-area: secundario;
+  height: 200px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.busqueda {
+  grid-area: busqueda;
+  width: 100%;
+  height: 100%;
+}
+
+/*Estilos Nav*/
+.navegador {
+  grid-area: nav;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.navegador .navegadorElementos {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  justify-content: space-around;
+}
+
+.navegador .botonNav {
+  background-color: #26262608;
+  padding: 10px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.navegador .botonNav i {
+  color: #262626;
+  margin-right: 10px;
+}
+
+.navegador .botonActivo i {
+  color: #F2C53D;
+}
+
+.navegador .botonActivo a {
+  color: #F2C53D;
+}
+
+.navegador .logo {
+  display: flex;
+  justify-content: center;
+}
+
+.navegador .logo h1 {
+  font-family: "fuente2";
+  color: #262626;
+  font-size: 30px;
+  font-weight: 1500;
+}
+
+.navegador .logo h2 {
+  font-family: "fuente2";
+  color: #F2C53D;
+  font-size: 30px;
+  font-weight: 1500;
+}
+
+.navegador ul li {
+  list-style: none;
+}
+
+.navegador ul li a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #262626;
+  font-family: "fuente1";
+}
+
+.navegador .misDatos {
+  display: flex;
+  flex-direction: column;
+  height: 70px;
+  justify-content: end;
+}
+
+.navegador .misDatos h3 {
+  font-family: "fuente1";
+  font-size: 15px;
+}
+
+.navegador .misDatos h5 {
+  font-family: "fuente2";
+  font-size: 11px;
+}
+
+body {
+  background-color: #F2F2F2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*# sourceMappingURL=styles.css.map */

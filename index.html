@@ -5,33 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
     <title>FilmsPlay</title>
 </head>
 <body class="contenedorWeb">
     <nav class="navegador">
-        <div class="elementos">
-            <div class="letrasLogo">
-                <h1>Films</h1>
-                <h2>Play</h2>
-            </div>
-            <div class="peliculas">
-                <i class='bx bxs-star'></i>
-                <h3>Peliculas</h3>
-            </div>
-            <div class="series">
-                <i class='bx bxs-star'></i>
-                <h3>Series</h3>
-            </div>
-            <div class="acercaDe">
-                <i class='bx bxs-info-circle'></i>
-                <h3>Acerca de</h3>
-            </div>
-            <div class="documentales">
-                <i class='bx bxs-star'></i>
-                <h3>Documentales</h3>
-            </div>
+        <div class="logo">
+            <h1>Films</h1>
+            <h2>Play</h2>
         </div>
+        <ul class="navegadorElementos">
+            <div class="botonNav botonActivo">
+                <i class='bx bxs-home'></i>
+                <li><a href="">Inicio</a></li>
+            </div>
+            <div class="botonNav">
+                <i class='bx bxs-video-recording'></i>
+                <li><a href="">Peliculas</a></li>
+            </div>
+            <div class="botonNav">
+                <i class='bx bx-slideshow'></i>
+                <li><a href="">Series</a></li>
+            </div>
+            <div class="botonNav">
+                <i class='bx bx-slideshow'></i>
+                <li><a href="">Documentales</a></li>
+            </div>
+            <div class="botonNav">
+                <i class='bx bxs-invader'></i>
+                <li><a href="">Videojuegos</a></li>
+            </div>
+        </ul>
+        <div class="misDatos">
+            <h3>Nadir Blanco Sanchez</h3>
+            <h5>nadirblanco02@gmail.com</h5>
+        </div>
+
     </nav>
     <main class="contenidoPrincipal contenedorPrincipal">
         <section class="peliculasPrincipales"></section>

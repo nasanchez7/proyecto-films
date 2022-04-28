@@ -1,0 +1,16 @@
+/*Grillas desktop*/
+.contenedorWeb {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 200px auto;
+    grid-template-areas: "nav main";
+  }
+  
+  .contenedorPrincipal {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr 1fr 200px;
+    grid-template-areas: "principal principal principal busqueda"
+   "secundario secundario secundario busqueda";
+  }
+  
