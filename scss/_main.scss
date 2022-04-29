@@ -4,17 +4,53 @@
     grid-area: main;
     width: 100%;
 }
+
+/*Peliculas*/
+
 .peliculasPrincipales{
     grid-area: principal;
     height: 360px;
     width: 100%;
     h2{
         font-family: "fuente1";
+        font-size: 20px;
         margin-left: 20px;
         margin-top: 10px;
         margin-bottom: 10px;
     }
+    .contenedorPeliculas{
+        display: flex;
+        justify-content: space-around;
+        .primeraPelicula{
+            background-image: url(../assets/img/peliculas/starwars.jpg);
+            height: 300px;
+            width: 450px;
+            border-radius: 25px;
+        }
+        .segundaPelicula{
+            background-image: url(../assets/img/peliculas/elirlandes.jpg);
+            height: 300px;
+            width: 350px;
+            border-radius: 25px;
+        }
+        .topPelicula{
+            h4{
+                background-color: #ffffff;
+                color: $colorsecundario;
+                font-family: "fuente1";
+                width: 30px;
+                padding: 5px;
+                border-radius: 10px;
+                margin-left: 10px;
+                margin-top: 10px;
+            }
+        }
+    }
 }
+
+
+/*Series*/
+
 .peliculasSecundarias{
     grid-area: secundario;
     height: 300px;
@@ -24,44 +60,78 @@
         margin-left: 20px;
         margin-top: 10px;
         margin-bottom: 10px;
+        font-size: 20px;
     }
     .contenedorSeries{
         display: flex;
         justify-content: space-around;
     }
     .primeraSerie{
-        background-color: black;
-        height: 200px;
+        background-image: url(../assets/img/series/the-sopranos-wallpaper-preview.jpg);
+        height: 225px;
         width: 250px;
+        border-radius: 20px;
     }
     .segundaSerie{
-        background-color: rgb(48, 48, 48);
-        height: 200px;
+        background-image: url(../assets/img/series/juegodetronos.jpg);
+        height: 225px;
         width: 250px;
+        border-radius: 20px;
     }
     .terceraSerie{
-        background-color: rgb(90, 90, 90);
-        height: 200px;
+        background-image: url(../assets/img/series/breakingbad.jpg);
+        height: 225px;
         width: 250px;
+        border-radius: 20px;
     }
-
+    .topSerie{
+        h4{
+            background-color: #ffffff;
+            color: $colorsecundario;
+            font-family: "fuente1";
+            width: 25px;
+            padding: 3px;
+            border-radius: 10px;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+    }
 }
+
+/*Top*/
+
 .busqueda{
     grid-area: busqueda;
     width: 100%;
     height: 100%;
-}
-.contenedorPeliculas{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    h3{
+        font-family: "fuente1";
+        margin-left: 20px;
+        text-align: center;
+    }
+    .contenedorStreaming{
+        background-color: #ffffff;
+        height: 500px;
+        width: 100px;
+        border-radius: 30px;
+        margin-left: 20px;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px;
+        h4{
+            font-family: "fuente1";
+        }
+        .cajaStreaming{
+            background-color: $colorbotonnav;
+            border-radius: 10px;
+        }
+    }
 }
-.primeraPelicula{
-    background-color: black;
-    height: 300px;
-    width: 450px;
-}
-.segundaPelicula{
-    background-color: bisque;
-    height: 300px;
-    width: 350px;
-}
+
