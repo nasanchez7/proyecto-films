@@ -37,7 +37,59 @@
   width: 100%;
 }
 
-.peliculasPrincipales h2 {
+.peliculasPrincipales .tituloBoton {
+  display: flex;
+  justify-content: space-between;
+}
+
+.peliculasPrincipales button {
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: unset;
+  border-radius: 15px;
+  color: #262626;
+  z-index: 1;
+  background: #F2C53D;
+  position: relative;
+  font-weight: 1000;
+  font-size: 10px;
+  font-family: "fuente1";
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  transition: all 250ms;
+  overflow: hidden;
+}
+
+.peliculasPrincipales button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 15px;
+  background-color: #212121;
+  z-index: -1;
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  transition: all 250ms;
+}
+
+.peliculasPrincipales button:hover::before {
+  width: 100%;
+}
+
+.peliculasPrincipales button a {
+  text-decoration: none;
+  color: #262626;
+}
+
+.peliculasPrincipales button a:hover {
+  color: #F2C53D;
+}
+
+.peliculasPrincipales .peliculasFavoritas {
   font-family: "fuente1";
   font-size: 20px;
   margin-left: 20px;
@@ -55,6 +107,36 @@
   height: 300px;
   width: 450px;
   border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.peliculasPrincipales .contenedorPeliculas .primeraPelicula .infoPelicula {
+  background-color: #000000cb;
+  border-radius: 25px;
+  padding: 8px;
+  opacity: 0;
+  transition: 1s;
+}
+
+.peliculasPrincipales .contenedorPeliculas .primeraPelicula .infoPelicula:hover {
+  opacity: 1;
+}
+
+.peliculasPrincipales .contenedorPeliculas .primeraPelicula .infoPelicula .tituloPelicula {
+  font-family: "fuente1";
+  color: #F2C53D;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.peliculasPrincipales .contenedorPeliculas .primeraPelicula .infoPelicula .subtituloPelicula {
+  font-family: "fuente2";
+  color: #F2F2F2;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 .peliculasPrincipales .contenedorPeliculas .segundaPelicula {
@@ -62,10 +144,40 @@
   height: 300px;
   width: 350px;
   border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.peliculasPrincipales .contenedorPeliculas .segundaPelicula .infoPeliculaDos {
+  background-color: #000000cb;
+  border-radius: 25px;
+  padding: 8px;
+  opacity: 0;
+  transition: 1s;
+}
+
+.peliculasPrincipales .contenedorPeliculas .segundaPelicula .infoPeliculaDos:hover {
+  opacity: 1;
+}
+
+.peliculasPrincipales .contenedorPeliculas .segundaPelicula .infoPeliculaDos .tituloPeliculaDos {
+  font-family: "fuente1";
+  color: #F2C53D;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.peliculasPrincipales .contenedorPeliculas .segundaPelicula .infoPeliculaDos .subtituloPeliculaDos {
+  font-family: "fuente2";
+  color: #F2F2F2;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 .peliculasPrincipales .contenedorPeliculas .topPelicula h4 {
-  background-color: #ffffff;
+  background-color: #F2C53D;
   color: #262626;
   font-family: "fuente1";
   width: 30px;
@@ -82,7 +194,59 @@
   width: 100%;
 }
 
-.peliculasSecundarias h2 {
+.peliculasSecundarias .tituloBotonDos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.peliculasSecundarias button {
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: unset;
+  border-radius: 15px;
+  color: #262626;
+  z-index: 1;
+  background: #F2C53D;
+  position: relative;
+  font-weight: 1000;
+  font-size: 10px;
+  font-family: "fuente1";
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  transition: all 250ms;
+  overflow: hidden;
+}
+
+.peliculasSecundarias button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 15px;
+  background-color: #212121;
+  z-index: -1;
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  transition: all 250ms;
+}
+
+.peliculasSecundarias button:hover::before {
+  width: 100%;
+}
+
+.peliculasSecundarias button a {
+  text-decoration: none;
+  color: #262626;
+}
+
+.peliculasSecundarias button a:hover {
+  color: #F2C53D;
+}
+
+.peliculasSecundarias .seriesFavoritas {
   font-family: "fuente1";
   margin-left: 20px;
   margin-top: 10px;
@@ -100,6 +264,36 @@
   height: 225px;
   width: 250px;
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.peliculasSecundarias .primeraSerie .infoSerie {
+  background-color: #000000cb;
+  border-radius: 25px;
+  padding: 8px;
+  opacity: 0;
+  transition: 1s;
+}
+
+.peliculasSecundarias .primeraSerie .infoSerie:hover {
+  opacity: 1;
+}
+
+.peliculasSecundarias .primeraSerie .infoSerie .tituloSerie {
+  font-family: "fuente1";
+  color: #F2C53D;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.peliculasSecundarias .primeraSerie .infoSerie .subtituloSerie {
+  font-family: "fuente2";
+  color: #F2F2F2;
+  font-size: 13px;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 .peliculasSecundarias .segundaSerie {
@@ -107,6 +301,36 @@
   height: 225px;
   width: 250px;
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.peliculasSecundarias .segundaSerie .infoSerieDos {
+  background-color: #000000cb;
+  border-radius: 25px;
+  padding: 8px;
+  opacity: 0;
+  transition: 1s;
+}
+
+.peliculasSecundarias .segundaSerie .infoSerieDos:hover {
+  opacity: 1;
+}
+
+.peliculasSecundarias .segundaSerie .infoSerieDos .tituloSerieDos {
+  font-family: "fuente1";
+  color: #F2C53D;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.peliculasSecundarias .segundaSerie .infoSerieDos .subtituloSerieDos {
+  font-family: "fuente2";
+  color: #F2F2F2;
+  font-size: 13px;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 .peliculasSecundarias .terceraSerie {
@@ -114,10 +338,40 @@
   height: 225px;
   width: 250px;
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.peliculasSecundarias .terceraSerie .infoSerieTres {
+  background-color: #000000cb;
+  border-radius: 25px;
+  padding: 8px;
+  opacity: 0;
+  transition: 1s;
+}
+
+.peliculasSecundarias .terceraSerie .infoSerieTres:hover {
+  opacity: 1;
+}
+
+.peliculasSecundarias .terceraSerie .infoSerieTres .tituloSerieTres {
+  font-family: "fuente1";
+  color: #F2C53D;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.peliculasSecundarias .terceraSerie .infoSerieTres .subtituloSerieTres {
+  font-family: "fuente2";
+  color: #F2F2F2;
+  font-size: 13px;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 .peliculasSecundarias .topSerie h4 {
-  background-color: #ffffff;
+  background-color: #F2C53D;
   color: #262626;
   font-family: "fuente1";
   width: 25px;

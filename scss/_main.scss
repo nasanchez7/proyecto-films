@@ -11,7 +11,56 @@
     grid-area: principal;
     height: 360px;
     width: 100%;
-    h2{
+    .tituloBoton{
+        display: flex;
+        justify-content: space-between;
+    }
+    button{
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        padding: 5px;
+        border: unset;
+        border-radius: 15px;
+        color: $colorsecundario;
+        z-index: 1;
+        background: $colorterciario;
+        position: relative;
+        font-weight: 1000;
+        font-size: 10px;
+        font-family: "fuente1";
+        -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        transition: all 250ms;
+        overflow: hidden;
+    }
+    button::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 0;
+        border-radius: 15px;
+        background-color: #212121;
+        z-index: -1;
+        -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        transition: all 250ms
+    }
+    button:hover::before {
+        width: 100%;
+    }
+    button a{
+        text-decoration: none;
+        color: $colorsecundario
+    }
+    button a:hover{
+        color: $colorterciario;
+    }
+
+    .peliculasFavoritas{
         font-family: "fuente1";
         font-size: 20px;
         margin-left: 20px;
@@ -26,16 +75,68 @@
             height: 300px;
             width: 450px;
             border-radius: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .infoPelicula{
+                background-color: #000000cb;
+                border-radius: 25px;
+                padding: 8px;
+                opacity: 0;
+                transition: 1s;
+                &:hover{
+                    opacity: 1;
+                }
+                .tituloPelicula{
+                    font-family: "fuente1";
+                    color: $colorterciario;
+                    font-size: 18px;
+                    margin-left: 10px;
+                }
+                .subtituloPelicula{
+                    font-family: "fuente2";
+                    color: $colorprimario;
+                    font-size: 14px;
+                    margin-left: 10px;
+                    margin-bottom: 10px;
+                }
+            }
         }
         .segundaPelicula{
             background-image: url(../assets/img/peliculas/elirlandes.jpg);
             height: 300px;
             width: 350px;
             border-radius: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .infoPeliculaDos{
+                background-color: #000000cb;
+                border-radius: 25px;
+                padding: 8px;
+                opacity: 0;
+                transition: 1s;
+                &:hover{
+                    opacity: 1;
+                }
+                .tituloPeliculaDos{
+                    font-family: "fuente1";
+                    color: $colorterciario;
+                    font-size: 18px;
+                    margin-left: 10px;
+                }
+                .subtituloPeliculaDos{
+                    font-family: "fuente2";
+                    color: $colorprimario;
+                    font-size: 14px;
+                    margin-left: 10px;
+                    margin-bottom: 10px;
+                }
+            }
         }
         .topPelicula{
             h4{
-                background-color: #ffffff;
+                background-color: $colorterciario;
                 color: $colorsecundario;
                 font-family: "fuente1";
                 width: 30px;
@@ -55,7 +156,55 @@
     grid-area: secundario;
     height: 300px;
     width: 100%;
-    h2{
+    .tituloBotonDos{
+        display: flex;
+        justify-content: space-between;
+    }
+    button{
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        padding: 5px;
+        border: unset;
+        border-radius: 15px;
+        color: $colorsecundario;
+        z-index: 1;
+        background: $colorterciario;
+        position: relative;
+        font-weight: 1000;
+        font-size: 10px;
+        font-family: "fuente1";
+        -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        transition: all 250ms;
+        overflow: hidden;
+    }
+    button::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 0;
+        border-radius: 15px;
+        background-color: #212121;
+        z-index: -1;
+        -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        transition: all 250ms
+    }
+    button:hover::before {
+        width: 100%;
+    }
+    button a{
+        text-decoration: none;
+        color: $colorsecundario
+    }
+    button a:hover{
+        color: $colorterciario;
+    }
+    .seriesFavoritas{
         font-family: "fuente1";
         margin-left: 20px;
         margin-top: 10px;
@@ -71,22 +220,100 @@
         height: 225px;
         width: 250px;
         border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .infoSerie{
+            background-color: #000000cb;
+                border-radius: 25px;
+                padding: 8px;
+                opacity: 0;
+                transition: 1s;
+                &:hover{
+                    opacity: 1;
+                }
+                .tituloSerie{
+                    font-family: "fuente1";
+                    color: $colorterciario;
+                    font-size: 15px;
+                    margin-left: 10px;
+                }
+                .subtituloSerie{
+                    font-family: "fuente2";
+                    color: $colorprimario;
+                    font-size: 13px;
+                    margin-left: 10px;
+                    margin-bottom: 10px;
+                }
+        }
     }
     .segundaSerie{
         background-image: url(../assets/img/series/juegodetronos.jpg);
         height: 225px;
         width: 250px;
         border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .infoSerieDos{
+        background-color: #000000cb;
+        border-radius: 25px;
+        padding: 8px;
+        opacity: 0;
+        transition: 1s;
+        &:hover{
+            opacity: 1;
+        }
+        .tituloSerieDos{
+            font-family: "fuente1";
+            color: $colorterciario;
+            font-size: 15px;
+            margin-left: 10px;
+            }
+        .subtituloSerieDos{
+            font-family: "fuente2";
+            color: $colorprimario;
+            font-size: 13px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            }
+        }
     }
     .terceraSerie{
         background-image: url(../assets/img/series/breakingbad.jpg);
         height: 225px;
         width: 250px;
         border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .infoSerieTres{
+            background-color: #000000cb;
+            border-radius: 25px;
+            padding: 8px;
+            opacity: 0;
+            transition: 1s;
+            &:hover{
+                opacity: 1;
+            }
+            .tituloSerieTres{
+                font-family: "fuente1";
+                color: $colorterciario;
+                font-size: 15px;
+                margin-left: 10px;
+                }
+            .subtituloSerieTres{
+                font-family: "fuente2";
+                color: $colorprimario;
+                font-size: 13px;
+                margin-left: 10px;
+                margin-bottom: 10px;
+                }
+            }
     }
     .topSerie{
         h4{
-            background-color: #ffffff;
+            background-color: $colorterciario;
             color: $colorsecundario;
             font-family: "fuente1";
             width: 25px;
