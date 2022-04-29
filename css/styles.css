@@ -32,15 +32,51 @@
 
 .peliculasPrincipales {
   grid-area: principal;
-  height: 400px;
+  height: 360px;
   width: 100%;
+}
+
+.peliculasPrincipales h2 {
+  font-family: "fuente1";
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .peliculasSecundarias {
   grid-area: secundario;
-  height: 200px;
+  height: 300px;
   width: 100%;
-  margin-top: 20px;
+}
+
+.peliculasSecundarias h2 {
+  font-family: "fuente1";
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.peliculasSecundarias .contenedorSeries {
+  display: flex;
+  justify-content: space-around;
+}
+
+.peliculasSecundarias .primeraSerie {
+  background-color: black;
+  height: 200px;
+  width: 250px;
+}
+
+.peliculasSecundarias .segundaSerie {
+  background-color: #303030;
+  height: 200px;
+  width: 250px;
+}
+
+.peliculasSecundarias .terceraSerie {
+  background-color: #5a5a5a;
+  height: 200px;
+  width: 250px;
 }
 
 .busqueda {
@@ -49,12 +85,29 @@
   height: 100%;
 }
 
+.contenedorPeliculas {
+  display: flex;
+  justify-content: space-around;
+}
+
+.primeraPelicula {
+  background-color: black;
+  height: 300px;
+  width: 450px;
+}
+
+.segundaPelicula {
+  background-color: bisque;
+  height: 300px;
+  width: 350px;
+}
+
 /*Estilos Nav*/
 .navegador {
   grid-area: nav;
-  border-radius: 10px;
   background-color: #ffffff;
   padding: 20px;
+  height: 100%;
 }
 
 .navegador .navegadorElementos {
