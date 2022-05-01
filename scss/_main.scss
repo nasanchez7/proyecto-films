@@ -5,6 +5,26 @@
     width: 100%;
 }
 
+/* Estilos Generales */
+
+.puntuacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: #2121216c;
+    border-radius: 10px;
+    border: solid #ffffff 1px;
+    margin-top: 10px;
+    margin-right: 15px;
+    h5{
+        font-family: "fuente2";
+        color: #ffffff;
+        font-size: 15px;
+    }
+}
+
 /*Peliculas*/
 
 .peliculasPrincipales{
@@ -93,6 +113,14 @@
                     font-size: 18px;
                     margin-left: 10px;
                 }
+                .añoPelicula{
+                    color: $colorprimario;
+                    font-family: "fuente1";
+                    font-size: 10px;
+                    margin-left: 10px;
+                    margin-top: 2px;
+                    margin-bottom: 2px;
+                }
                 .subtituloPelicula{
                     font-family: "fuente2";
                     color: $colorprimario;
@@ -132,9 +160,19 @@
                     margin-left: 10px;
                     margin-bottom: 10px;
                 }
+                .añoPelicula{
+                    color: $colorprimario;
+                    font-family: "fuente1";
+                    font-size: 10px;
+                    margin-left: 10px;
+                    margin-top: 2px;
+                    margin-bottom: 2px;
+                }
             }
         }
         .topPelicula{
+            display: flex;
+            justify-content: space-between;
             h4{
                 background-color: $colorterciario;
                 color: $colorsecundario;
@@ -245,6 +283,14 @@
                     margin-left: 10px;
                     margin-bottom: 10px;
                 }
+                .añoSerie{
+                    color: $colorprimario;
+                    font-family: "fuente1";
+                    font-size: 10px;
+                    margin-left: 10px;
+                    margin-top: 2px;
+                    margin-bottom: 2px;
+                }
         }
     }
     .segundaSerie{
@@ -276,6 +322,14 @@
             font-size: 13px;
             margin-left: 10px;
             margin-bottom: 10px;
+            }
+            .añoSerie{
+                color: $colorprimario;
+                font-family: "fuente1";
+                font-size: 10px;
+                margin-left: 10px;
+                margin-top: 2px;
+                margin-bottom: 2px;
             }
         }
     }
@@ -309,9 +363,20 @@
                 margin-left: 10px;
                 margin-bottom: 10px;
                 }
+                .añoSerie{
+                    color: $colorprimario;
+                    font-family: "fuente1";
+                    font-size: 10px;
+                    margin-left: 10px;
+                    margin-top: 2px;
+                    margin-bottom: 2px;
+                }
             }
     }
     .topSerie{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         h4{
             background-color: $colorterciario;
             color: $colorsecundario;

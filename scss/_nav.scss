@@ -57,9 +57,9 @@
     }
     .misDatos{
         display: flex;
-        flex-direction: column;
-        height: 70px;
-        justify-content: end;
+        align-content: center;
+        align-items: center;
+        margin-top: 40px;
         h3{
             font-family: "fuente1";
             font-size: 13px;
@@ -67,6 +67,11 @@
         h5{
             font-family: "fuente2";
             font-size: 10px;
+        }
+        .miCara{
+            height: 50px;
+            width: 50px;
+            margin-right: 5px;
         }
     }
     
