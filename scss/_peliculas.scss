@@ -41,38 +41,54 @@
             margin: 10px;
             display: flex;
             flex-direction: column;
-            padding: 10px;
-
             h2{
                 font-family: "fuente1";
                 color: $colorterciario;
+                margin-bottom: 10px;
             }
             h3{
                 font-family: "fuente2";
                 font-size: 15px;
                 color: $colorsecundario;
+                margin-bottom: 10px;
             }
             h4{
                 font-family: "fuente1";
+                margin-bottom: 10px;
+            }
+            .director{
+                display: flex;
+                h3{
+                    font-family: "fuente1";
+                    font-size: 15px;
+                }
+                h4{
+                    font-family: "fuente2";
+                    margin-left: 5px;
+                    font-size: 15px;
+                }
             }
         }
-        .fuentes{
-            width: 80px;
-            height: 80px;
-            margin-left: 20px;
-            border-radius: 10px;
+        .infoAdicional{
             display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            background-color: #2626260e;
-            h3{
-                font-family: "fuente1";
-                font-size: 17px;
-            }
-            img{
-                width: 50px;
-                height: 50px;
+            .fuentes{
+                width: 80px;
+                height: 80px;
+                margin-left: 20px;
+                border-radius: 10px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                background-color: #2626260e;
+                h3{
+                    font-family: "fuente1";
+                    font-size: 17px;
+                }
+                img{
+                    width: 50px;
+                    height: 50px;
+                }
             }
         }
     }

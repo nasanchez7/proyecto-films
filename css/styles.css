@@ -576,25 +576,46 @@
   margin: 10px;
   display: flex;
   flex-direction: column;
-  padding: 10px;
 }
 
 .contenedor-pelicula .pelicula .descripcionPelicula h2 {
   font-family: "fuente1";
   color: #F2C53D;
+  margin-bottom: 10px;
 }
 
 .contenedor-pelicula .pelicula .descripcionPelicula h3 {
   font-family: "fuente2";
   font-size: 15px;
   color: #262626;
+  margin-bottom: 10px;
 }
 
 .contenedor-pelicula .pelicula .descripcionPelicula h4 {
   font-family: "fuente1";
+  margin-bottom: 10px;
 }
 
-.contenedor-pelicula .pelicula .fuentes {
+.contenedor-pelicula .pelicula .descripcionPelicula .director {
+  display: flex;
+}
+
+.contenedor-pelicula .pelicula .descripcionPelicula .director h3 {
+  font-family: "fuente1";
+  font-size: 15px;
+}
+
+.contenedor-pelicula .pelicula .descripcionPelicula .director h4 {
+  font-family: "fuente2";
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+.contenedor-pelicula .pelicula .infoAdicional {
+  display: flex;
+}
+
+.contenedor-pelicula .pelicula .infoAdicional .fuentes {
   width: 80px;
   height: 80px;
   margin-left: 20px;
@@ -606,12 +627,12 @@
   background-color: #2626260e;
 }
 
-.contenedor-pelicula .pelicula .fuentes h3 {
+.contenedor-pelicula .pelicula .infoAdicional .fuentes h3 {
   font-family: "fuente1";
   font-size: 17px;
 }
 
-.contenedor-pelicula .pelicula .fuentes img {
+.contenedor-pelicula .pelicula .infoAdicional .fuentes img {
   width: 50px;
   height: 50px;
 }
