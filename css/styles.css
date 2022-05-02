@@ -522,6 +522,7 @@
   background-color: #ffffff;
   padding: 20px;
   height: 660px;
+  border-radius: 20px;
 }
 
 .navegador .navegadorElementos {
