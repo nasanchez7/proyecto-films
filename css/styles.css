@@ -525,6 +525,75 @@
   height: 50px;
 }
 
+.contenedor-pelicula {
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor-pelicula .pelicula {
+  width: 90%;
+  height: 400px;
+  margin-top: 30px;
+  border-radius: 30px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.contenedor-pelicula .pelicula .portadaPelicula {
+  background-image: url(../assets/img/peliculas/starwars3.jpg);
+  background-size: cover;
+  width: 550px;
+  height: 350px;
+  border-radius: 20px;
+}
+
+.contenedor-pelicula .pelicula .portadaPelicula .top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contenedor-pelicula .pelicula .portadaPelicula .top h3 {
+  background-color: #F2C53D;
+  color: #262626;
+  font-family: "fuente1";
+  width: 27px;
+  padding: 5px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.contenedor-pelicula .pelicula .portadaPelicula .top h5 {
+  color: #F2F2F2;
+  font-family: "fuente2";
+  font-size: 15px;
+}
+
+.contenedor-pelicula .pelicula .descripcionPelicula {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.contenedor-pelicula .pelicula .descripcionPelicula h2 {
+  font-family: "fuente1";
+  color: #F2C53D;
+}
+
+.contenedor-pelicula .pelicula .descripcionPelicula h3 {
+  font-family: "fuente2";
+  font-size: 15px;
+  color: #262626;
+}
+
+.contenedor-pelicula .pelicula .descripcionPelicula h4 {
+  font-family: "fuente1";
+}
+
 /*Estilos Nav*/
 .navegador {
   grid-area: nav;

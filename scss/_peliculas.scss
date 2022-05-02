@@ -1,0 +1,59 @@
+.contenedor-pelicula{
+    display: flex;
+    justify-content: center;
+    .pelicula{
+        width: 90%;
+        height: 400px;
+        margin-top: 30px;
+        border-radius: 30px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        .portadaPelicula{
+            background-image: url(../assets/img/peliculas/starwars3.jpg);
+            background-size: cover;
+            width: 550px;
+            height: 350px;
+            border-radius: 20px;
+            .top{
+                display: flex;
+                justify-content: space-between;
+                h3{
+                    background-color: $colorterciario;
+                    color: $colorsecundario;
+                    font-family: "fuente1";
+                    width: 27px;
+                    padding: 5px;
+                    border-radius: 10px;
+                    margin-left: 10px;
+                    margin-top: 10px;
+                    font-size: 15px;
+                }
+                h5{
+                    color: $colorprimario;
+                    font-family: "fuente2";
+                    font-size: 15px;
+                }
+            }
+        }
+        .descripcionPelicula{
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            h2{
+                font-family: "fuente1";
+                color: $colorterciario;
+            }
+            h3{
+                font-family: "fuente2";
+                font-size: 15px;
+                color: $colorsecundario;
+            }
+            h4{
+                font-family: "fuente1";
+            }
+        }
+    }
+}
