@@ -14,6 +14,13 @@
   grid-template-areas: "principal principal principal busqueda" "secundario secundario secundario busqueda";
 }
 
+.contenedorSecundario {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr;
+  grid-template-areas: "peliculas";
+}
+
 /*Fuentes*/
 @font-face {
   font-family: "fuente1";
@@ -28,6 +35,11 @@
 /*Estilos Main*/
 .contenidoPrincipal {
   grid-area: main;
+  width: 100%;
+}
+
+.contenidoSecundario {
+  grid-area: peliculas;
   width: 100%;
 }
 
@@ -498,12 +510,18 @@
   border-radius: 10px;
 }
 
+.misPeliculas {
+  background-color: black;
+  height: 500px;
+  width: 100%;
+}
+
 /*Estilos Nav*/
 .navegador {
   grid-area: nav;
   background-color: #ffffff;
   padding: 20px;
-  height: 100%;
+  height: 660px;
 }
 
 .navegador .navegadorElementos {

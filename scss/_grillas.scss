@@ -13,4 +13,9 @@
     grid-template-areas: "principal principal principal busqueda"
    "secundario secundario secundario busqueda";
   }
-  
+  .contenedorSecundario{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    grid-template-areas: "peliculas";
+  }
