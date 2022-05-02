@@ -432,6 +432,10 @@
             display: flex;
             align-items: center;
             flex-direction: column;
+            &:hover{
+                transform: scale(1.1);
+                transition: 1s;
+            }
         }
     }
     .tamañoIconos{

@@ -515,6 +515,11 @@
   flex-direction: column;
 }
 
+.busqueda .contenedorStreaming .cajaStreaming:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
 .busqueda .tamañoIconos {
   width: 50px;
   height: 50px;
