@@ -1,3 +1,4 @@
+
 .contenedor-pelicula{
     display: flex;
     justify-content: center;
@@ -68,7 +69,31 @@
                     font-size: 15px;
                 }
             }
+            .escritores{
+                display: flex;
+                h3{
+                    font-family: "fuente1";
+                    font-size: 15px;
+                }
+                h4{
+                    font-family: "fuente2";
+                    margin-left: 5px;
+                    font-size: 15px;
+                }
+            }
             .reparto{
+                display: flex;
+                h3{
+                    font-family: "fuente1";
+                    font-size: 15px;
+                }
+                h4{
+                    font-family: "fuente2";
+                    margin-left: 5px;
+                    font-size: 15px;
+                }
+            }
+            .bandaSonora{
                 display: flex;
                 h3{
                     font-family: "fuente1";
@@ -113,5 +138,30 @@
         width: 90%;
         background-color: white;
         border-radius: 30px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: space-around;
+        h3{
+            font-family: "fuente1";
+            font-size: 14px;
+        }
+        img{
+            border-radius: 30px;
+            margin-top: 5px;
+        }
+        .actorUno{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img{
+                height: 96px;
+                width: 96px;
+            }
+        }
+        .actorDos{
+            display: flex;
+            flex-direction: column;
+        }
     }
 }

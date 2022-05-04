@@ -611,6 +611,21 @@
   font-size: 15px;
 }
 
+.contenedor-pelicula .pelicula .descripcionPelicula .escritores {
+  display: flex;
+}
+
+.contenedor-pelicula .pelicula .descripcionPelicula .escritores h3 {
+  font-family: "fuente1";
+  font-size: 15px;
+}
+
+.contenedor-pelicula .pelicula .descripcionPelicula .escritores h4 {
+  font-family: "fuente2";
+  margin-left: 5px;
+  font-size: 15px;
+}
+
 .contenedor-pelicula .pelicula .descripcionPelicula .reparto {
   display: flex;
 }
@@ -621,6 +636,21 @@
 }
 
 .contenedor-pelicula .pelicula .descripcionPelicula .reparto h4 {
+  font-family: "fuente2";
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+.contenedor-pelicula .pelicula .descripcionPelicula .bandaSonora {
+  display: flex;
+}
+
+.contenedor-pelicula .pelicula .descripcionPelicula .bandaSonora h3 {
+  font-family: "fuente1";
+  font-size: 15px;
+}
+
+.contenedor-pelicula .pelicula .descripcionPelicula .bandaSonora h4 {
   font-family: "fuente2";
   margin-left: 5px;
   font-size: 15px;
@@ -662,6 +692,36 @@
   width: 90%;
   background-color: white;
   border-radius: 30px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.contenedor-actores .actores h3 {
+  font-family: "fuente1";
+  font-size: 14px;
+}
+
+.contenedor-actores .actores img {
+  border-radius: 30px;
+  margin-top: 5px;
+}
+
+.contenedor-actores .actores .actorUno {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenedor-actores .actores .actorUno img {
+  height: 96px;
+  width: 96px;
+}
+
+.contenedor-actores .actores .actorDos {
+  display: flex;
+  flex-direction: column;
 }
 
 /*Estilos Nav*/
