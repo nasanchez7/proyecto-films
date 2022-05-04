@@ -611,6 +611,21 @@
   font-size: 15px;
 }
 
+.contenedor-pelicula .pelicula .descripcionPelicula .reparto {
+  display: flex;
+}
+
+.contenedor-pelicula .pelicula .descripcionPelicula .reparto h3 {
+  font-family: "fuente1";
+  font-size: 15px;
+}
+
+.contenedor-pelicula .pelicula .descripcionPelicula .reparto h4 {
+  font-family: "fuente2";
+  margin-left: 5px;
+  font-size: 15px;
+}
+
 .contenedor-pelicula .pelicula .infoAdicional {
   display: flex;
 }
