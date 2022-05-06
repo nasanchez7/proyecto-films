@@ -13,11 +13,15 @@
         justify-content: space-around;
     }
     .botonNav{
-        background-color: $colorbotonnav;
-        padding: 10px;
-        border-radius: 15px;
-        display: flex;
-        align-items: center;
+        button{
+            border: none;
+            background-color: $colorbotonnav;
+            padding: 10px;
+            border-radius: 15px;
+            width: 150px;
+            display: flex;
+            align-items: center;
+        }
         i{
             color: $colorletranav;
             margin-right: 10px;

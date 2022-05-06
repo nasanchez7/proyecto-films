@@ -735,10 +735,12 @@
   justify-content: space-around;
 }
 
-.navegador .botonNav {
+.navegador .botonNav button {
+  border: none;
   background-color: #26262608;
   padding: 10px;
   border-radius: 15px;
+  width: 150px;
   display: flex;
   align-items: center;
 }
