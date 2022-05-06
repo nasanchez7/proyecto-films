@@ -968,6 +968,11 @@
   justify-content: center;
 }
 
+.navegador .logo a {
+  text-decoration: none;
+  display: flex;
+}
+
 .navegador .logo h1 {
   font-family: "fuente2";
   color: #262626;

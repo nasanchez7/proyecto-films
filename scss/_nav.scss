@@ -38,6 +38,10 @@
     .logo{
         display: flex;
         justify-content: center;
+        a{
+            text-decoration: none;
+            display: flex;
+        }
         h1{
             font-family: "fuente2";
             color: $colorsecundario;
