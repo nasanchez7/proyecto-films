@@ -708,20 +708,15 @@
   margin-top: 5px;
 }
 
-.contenedor-actores .actores .actorUno {
+.contenedor-actores .actores .actor {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.contenedor-actores .actores .actorUno img {
+.contenedor-actores .actores .actor img {
   height: 96px;
   width: 96px;
-}
-
-.contenedor-actores .actores .actorDos {
-  display: flex;
-  flex-direction: column;
 }
 
 /*Estilos Nav*/
