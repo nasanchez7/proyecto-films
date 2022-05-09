@@ -1,0 +1,176 @@
+.contenedor-juegos{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    .juego{
+        width: 90%;
+        height: 400px;
+        margin-top: 30px;
+        border-radius: 30px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        .portadaJuego{
+            background-image: url(../assets/img/videojuegos/mg3/mg3.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+            width: 350px;
+            height: 350px;
+            border-radius: 20px;
+            .top{
+                display: flex;
+                justify-content: space-between;
+                h3{
+                    background-color: $colorterciario;
+                    color: $colorsecundario;
+                    font-family: "fuente1";
+                    width: 27px;
+                    padding: 5px;
+                    border-radius: 10px;
+                    margin-left: 10px;
+                    margin-top: 10px;
+                    font-size: 15px;
+                }
+                h5{
+                    color: $colorprimario;
+                    font-family: "fuente2";
+                    font-size: 15px;
+                }
+            }
+        }
+        .informacionJuego{
+            width: 600px;
+            .descripcionJuego{
+                margin: 10px;
+                display: flex;
+                flex-direction: column;
+                h2{
+                    font-family: "fuente1";
+                    color: $colorterciario;
+                    margin-bottom: 10px;
+                }
+                h3{
+                    font-family: "fuente2";
+                    font-size: 15px;
+                    color: $colorsecundario;
+                    margin-bottom: 10px;
+                }
+                h4{
+                    font-family: "fuente1";
+                    margin-bottom: 10px;
+                }
+                .director{
+                    display: flex;
+                    h3{
+                        font-family: "fuente1";
+                        font-size: 15px;
+                    }
+                    h4{
+                        font-family: "fuente2";
+                        margin-left: 5px;
+                        font-size: 15px;
+                    }
+                }
+                .escritores{
+                    display: flex;
+                    h3{
+                        font-family: "fuente1";
+                        font-size: 15px;
+                    }
+                    h4{
+                        font-family: "fuente2";
+                        margin-left: 5px;
+                        font-size: 15px;
+                    }
+                }
+                .reparto{
+                    display: flex;
+                    h3{
+                        font-family: "fuente1";
+                        font-size: 15px;
+                    }
+                    h4{
+                        font-family: "fuente2";
+                        margin-left: 5px;
+                        font-size: 15px;
+                    }
+                }
+                .bandaSonora{
+                    display: flex;
+                    h3{
+                        font-family: "fuente1";
+                        font-size: 15px;
+                    }
+                    h4{
+                        font-family: "fuente2";
+                        margin-left: 5px;
+                        font-size: 15px;
+                    }
+                }
+            }
+            .infoAdicional{
+                display: flex;
+                .fuentes{
+                    width: 80px;
+                    height: 80px;
+                    margin-left: 20px;
+                    border-radius: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #2626260e;
+                    h3{
+                        font-family: "fuente1";
+                        font-size: 17px;
+                    }
+                    h4{
+                        font-family: "fuente1";
+                        font-size: 15px;
+                    }
+                    img{
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
+            }
+        }
+    }
+}
+.contenedor-actores{
+    display: flex;
+    justify-content: center;
+    .actores{
+        height: 150px;
+        width: 90%;
+        background-color: white;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: space-around;
+        h3{
+            font-family: "fuente1";
+            font-size: 14px;
+        }
+        img{
+            border-radius: 30px;
+            margin-top: 5px;
+        }
+        .actor{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img{
+                height: 96px;
+                width: 96px;
+                &:hover{
+                    transform: scale(1.1);
+                    transition: 2s;
+                }
+            }
+        }
+    }
+}

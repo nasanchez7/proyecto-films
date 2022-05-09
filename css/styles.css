@@ -1143,6 +1143,217 @@
   transition: 2s;
 }
 
+.contenedor-juegos {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.contenedor-juegos .juego {
+  width: 90%;
+  height: 400px;
+  margin-top: 30px;
+  border-radius: 30px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.contenedor-juegos .juego .portadaJuego {
+  background-image: url(../assets/img/videojuegos/mg3/mg3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 350px;
+  height: 350px;
+  border-radius: 20px;
+}
+
+.contenedor-juegos .juego .portadaJuego .top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contenedor-juegos .juego .portadaJuego .top h3 {
+  background-color: #F2C53D;
+  color: #262626;
+  font-family: "fuente1";
+  width: 27px;
+  padding: 5px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.contenedor-juegos .juego .portadaJuego .top h5 {
+  color: #F2F2F2;
+  font-family: "fuente2";
+  font-size: 15px;
+}
+
+.contenedor-juegos .juego .informacionJuego {
+  width: 600px;
+}
+
+.contenedor-juegos .juego .informacionJuego .descripcionJuego {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedor-juegos .juego .informacionJuego .descripcionJuego h2 {
+  font-family: "fuente1";
+  color: #F2C53D;
+  margin-bottom: 10px;
+}
+
+.contenedor-juegos .juego .informacionJuego .descripcionJuego h3 {
+  font-family: "fuente2";
+  font-size: 15px;
+  color: #262626;
+  margin-bottom: 10px;
+}
+
+.contenedor-juegos .juego .informacionJuego .descripcionJuego h4 {
+  font-family: "fuente1";
+  margin-bottom: 10px;
+}
+
+.contenedor-juegos .juego .informacionJuego .descripcionJuego .director {
+  display: flex;
+}
+
+.contenedor-juegos .juego .informacionJuego .descripcionJuego .director h3 {
+  font-family: "fuente1";
+  font-size: 15px;
+}
+
+.contenedor-juegos .juego .informacionJuego .descripcionJuego .director h4 {
+  font-family: "fuente2";
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+.contenedor-juegos .juego .informacionJuego .descripcionJuego .escritores {
+  display: flex;
+}
+
+.contenedor-juegos .juego .informacionJuego .descripcionJuego .escritores h3 {
+  font-family: "fuente1";
+  font-size: 15px;
+}
+
+.contenedor-juegos .juego .informacionJuego .descripcionJuego .escritores h4 {
+  font-family: "fuente2";
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+.contenedor-juegos .juego .informacionJuego .descripcionJuego .reparto {
+  display: flex;
+}
+
+.contenedor-juegos .juego .informacionJuego .descripcionJuego .reparto h3 {
+  font-family: "fuente1";
+  font-size: 15px;
+}
+
+.contenedor-juegos .juego .informacionJuego .descripcionJuego .reparto h4 {
+  font-family: "fuente2";
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+.contenedor-juegos .juego .informacionJuego .descripcionJuego .bandaSonora {
+  display: flex;
+}
+
+.contenedor-juegos .juego .informacionJuego .descripcionJuego .bandaSonora h3 {
+  font-family: "fuente1";
+  font-size: 15px;
+}
+
+.contenedor-juegos .juego .informacionJuego .descripcionJuego .bandaSonora h4 {
+  font-family: "fuente2";
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+.contenedor-juegos .juego .informacionJuego .infoAdicional {
+  display: flex;
+}
+
+.contenedor-juegos .juego .informacionJuego .infoAdicional .fuentes {
+  width: 80px;
+  height: 80px;
+  margin-left: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #2626260e;
+}
+
+.contenedor-juegos .juego .informacionJuego .infoAdicional .fuentes h3 {
+  font-family: "fuente1";
+  font-size: 17px;
+}
+
+.contenedor-juegos .juego .informacionJuego .infoAdicional .fuentes h4 {
+  font-family: "fuente1";
+  font-size: 15px;
+}
+
+.contenedor-juegos .juego .informacionJuego .infoAdicional .fuentes img {
+  width: 50px;
+  height: 50px;
+}
+
+.contenedor-actores {
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor-actores .actores {
+  height: 150px;
+  width: 90%;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.contenedor-actores .actores h3 {
+  font-family: "fuente1";
+  font-size: 14px;
+}
+
+.contenedor-actores .actores img {
+  border-radius: 30px;
+  margin-top: 5px;
+}
+
+.contenedor-actores .actores .actor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenedor-actores .actores .actor img {
+  height: 96px;
+  width: 96px;
+}
+
+.contenedor-actores .actores .actor img:hover {
+  transform: scale(1.1);
+  transition: 2s;
+}
+
 /*Estilos Nav*/
 .navegador {
   grid-area: nav;
