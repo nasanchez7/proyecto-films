@@ -15,7 +15,9 @@
         .portadaPelicula{
             background-image: url(../assets/img/peliculas/starwars3.jpg);
             background-size: cover;
-            width: 550px;
+            position: relative;
+            background-repeat: no-repeat;
+            width: 350px;
             height: 350px;
             border-radius: 20px;
             .top{
@@ -39,93 +41,96 @@
                 }
             }
         }
-        .descripcionPelicula{
-            margin: 10px;
-            display: flex;
-            flex-direction: column;
-            h2{
-                font-family: "fuente1";
-                color: $colorterciario;
-                margin-bottom: 10px;
-            }
-            h3{
-                font-family: "fuente2";
-                font-size: 15px;
-                color: $colorsecundario;
-                margin-bottom: 10px;
-            }
-            h4{
-                font-family: "fuente1";
-                margin-bottom: 10px;
-            }
-            .director{
-                display: flex;
-                h3{
-                    font-family: "fuente1";
-                    font-size: 15px;
-                }
-                h4{
-                    font-family: "fuente2";
-                    margin-left: 5px;
-                    font-size: 15px;
-                }
-            }
-            .escritores{
-                display: flex;
-                h3{
-                    font-family: "fuente1";
-                    font-size: 15px;
-                }
-                h4{
-                    font-family: "fuente2";
-                    margin-left: 5px;
-                    font-size: 15px;
-                }
-            }
-            .reparto{
-                display: flex;
-                h3{
-                    font-family: "fuente1";
-                    font-size: 15px;
-                }
-                h4{
-                    font-family: "fuente2";
-                    margin-left: 5px;
-                    font-size: 15px;
-                }
-            }
-            .bandaSonora{
-                display: flex;
-                h3{
-                    font-family: "fuente1";
-                    font-size: 15px;
-                }
-                h4{
-                    font-family: "fuente2";
-                    margin-left: 5px;
-                    font-size: 15px;
-                }
-            }
-        }
-        .infoAdicional{
-            display: flex;
-            .fuentes{
-                width: 80px;
-                height: 80px;
-                margin-left: 20px;
-                border-radius: 10px;
+        .informacionPelicula{
+            width: 600px;
+            .descripcionPelicula{
+                margin: 10px;
                 display: flex;
                 flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                background-color: #2626260e;
-                h3{
+                h2{
                     font-family: "fuente1";
-                    font-size: 17px;
+                    color: $colorterciario;
+                    margin-bottom: 10px;
                 }
-                img{
-                    width: 50px;
-                    height: 50px;
+                h3{
+                    font-family: "fuente2";
+                    font-size: 15px;
+                    color: $colorsecundario;
+                    margin-bottom: 10px;
+                }
+                h4{
+                    font-family: "fuente1";
+                    margin-bottom: 10px;
+                }
+                .director{
+                    display: flex;
+                    h3{
+                        font-family: "fuente1";
+                        font-size: 15px;
+                    }
+                    h4{
+                        font-family: "fuente2";
+                        margin-left: 5px;
+                        font-size: 15px;
+                    }
+                }
+                .escritores{
+                    display: flex;
+                    h3{
+                        font-family: "fuente1";
+                        font-size: 15px;
+                    }
+                    h4{
+                        font-family: "fuente2";
+                        margin-left: 5px;
+                        font-size: 15px;
+                    }
+                }
+                .reparto{
+                    display: flex;
+                    h3{
+                        font-family: "fuente1";
+                        font-size: 15px;
+                    }
+                    h4{
+                        font-family: "fuente2";
+                        margin-left: 5px;
+                        font-size: 15px;
+                    }
+                }
+                .bandaSonora{
+                    display: flex;
+                    h3{
+                        font-family: "fuente1";
+                        font-size: 15px;
+                    }
+                    h4{
+                        font-family: "fuente2";
+                        margin-left: 5px;
+                        font-size: 15px;
+                    }
+                }
+            }
+            .infoAdicional{
+                display: flex;
+                .fuentes{
+                    width: 80px;
+                    height: 80px;
+                    margin-left: 20px;
+                    border-radius: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #2626260e;
+                    h3{
+                        font-family: "fuente1";
+                        font-size: 17px;
+                    }
+                    img{
+                        width: 50px;
+                        height: 50px;
+                    }
                 }
             }
         }

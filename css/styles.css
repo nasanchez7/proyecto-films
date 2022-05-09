@@ -545,7 +545,9 @@
 .contenedor-pelicula .pelicula .portadaPelicula {
   background-image: url(../assets/img/peliculas/starwars3.jpg);
   background-size: cover;
-  width: 550px;
+  position: relative;
+  background-repeat: no-repeat;
+  width: 350px;
   height: 350px;
   border-radius: 20px;
 }
@@ -573,95 +575,99 @@
   font-size: 15px;
 }
 
-.contenedor-pelicula .pelicula .descripcionPelicula {
+.contenedor-pelicula .pelicula .informacionPelicula {
+  width: 600px;
+}
+
+.contenedor-pelicula .pelicula .informacionPelicula .descripcionPelicula {
   margin: 10px;
   display: flex;
   flex-direction: column;
 }
 
-.contenedor-pelicula .pelicula .descripcionPelicula h2 {
+.contenedor-pelicula .pelicula .informacionPelicula .descripcionPelicula h2 {
   font-family: "fuente1";
   color: #F2C53D;
   margin-bottom: 10px;
 }
 
-.contenedor-pelicula .pelicula .descripcionPelicula h3 {
+.contenedor-pelicula .pelicula .informacionPelicula .descripcionPelicula h3 {
   font-family: "fuente2";
   font-size: 15px;
   color: #262626;
   margin-bottom: 10px;
 }
 
-.contenedor-pelicula .pelicula .descripcionPelicula h4 {
+.contenedor-pelicula .pelicula .informacionPelicula .descripcionPelicula h4 {
   font-family: "fuente1";
   margin-bottom: 10px;
 }
 
-.contenedor-pelicula .pelicula .descripcionPelicula .director {
+.contenedor-pelicula .pelicula .informacionPelicula .descripcionPelicula .director {
   display: flex;
 }
 
-.contenedor-pelicula .pelicula .descripcionPelicula .director h3 {
+.contenedor-pelicula .pelicula .informacionPelicula .descripcionPelicula .director h3 {
   font-family: "fuente1";
   font-size: 15px;
 }
 
-.contenedor-pelicula .pelicula .descripcionPelicula .director h4 {
+.contenedor-pelicula .pelicula .informacionPelicula .descripcionPelicula .director h4 {
   font-family: "fuente2";
   margin-left: 5px;
   font-size: 15px;
 }
 
-.contenedor-pelicula .pelicula .descripcionPelicula .escritores {
+.contenedor-pelicula .pelicula .informacionPelicula .descripcionPelicula .escritores {
   display: flex;
 }
 
-.contenedor-pelicula .pelicula .descripcionPelicula .escritores h3 {
+.contenedor-pelicula .pelicula .informacionPelicula .descripcionPelicula .escritores h3 {
   font-family: "fuente1";
   font-size: 15px;
 }
 
-.contenedor-pelicula .pelicula .descripcionPelicula .escritores h4 {
+.contenedor-pelicula .pelicula .informacionPelicula .descripcionPelicula .escritores h4 {
   font-family: "fuente2";
   margin-left: 5px;
   font-size: 15px;
 }
 
-.contenedor-pelicula .pelicula .descripcionPelicula .reparto {
+.contenedor-pelicula .pelicula .informacionPelicula .descripcionPelicula .reparto {
   display: flex;
 }
 
-.contenedor-pelicula .pelicula .descripcionPelicula .reparto h3 {
+.contenedor-pelicula .pelicula .informacionPelicula .descripcionPelicula .reparto h3 {
   font-family: "fuente1";
   font-size: 15px;
 }
 
-.contenedor-pelicula .pelicula .descripcionPelicula .reparto h4 {
+.contenedor-pelicula .pelicula .informacionPelicula .descripcionPelicula .reparto h4 {
   font-family: "fuente2";
   margin-left: 5px;
   font-size: 15px;
 }
 
-.contenedor-pelicula .pelicula .descripcionPelicula .bandaSonora {
+.contenedor-pelicula .pelicula .informacionPelicula .descripcionPelicula .bandaSonora {
   display: flex;
 }
 
-.contenedor-pelicula .pelicula .descripcionPelicula .bandaSonora h3 {
+.contenedor-pelicula .pelicula .informacionPelicula .descripcionPelicula .bandaSonora h3 {
   font-family: "fuente1";
   font-size: 15px;
 }
 
-.contenedor-pelicula .pelicula .descripcionPelicula .bandaSonora h4 {
+.contenedor-pelicula .pelicula .informacionPelicula .descripcionPelicula .bandaSonora h4 {
   font-family: "fuente2";
   margin-left: 5px;
   font-size: 15px;
 }
 
-.contenedor-pelicula .pelicula .infoAdicional {
+.contenedor-pelicula .pelicula .informacionPelicula .infoAdicional {
   display: flex;
 }
 
-.contenedor-pelicula .pelicula .infoAdicional .fuentes {
+.contenedor-pelicula .pelicula .informacionPelicula .infoAdicional .fuentes {
   width: 80px;
   height: 80px;
   margin-left: 20px;
@@ -673,12 +679,12 @@
   background-color: #2626260e;
 }
 
-.contenedor-pelicula .pelicula .infoAdicional .fuentes h3 {
+.contenedor-pelicula .pelicula .informacionPelicula .infoAdicional .fuentes h3 {
   font-family: "fuente1";
   font-size: 17px;
 }
 
-.contenedor-pelicula .pelicula .infoAdicional .fuentes img {
+.contenedor-pelicula .pelicula .informacionPelicula .infoAdicional .fuentes img {
   width: 50px;
   height: 50px;
 }
@@ -745,7 +751,9 @@
 .contenedor-serie .serie .portadaSerie {
   background-image: url(../assets/img/series/lossoprano.jpg);
   background-repeat: no-repeat;
-  width: 432px;
+  position: relative;
+  background-size: cover;
+  width: 350px;
   height: 350px;
   border-radius: 20px;
 }
@@ -773,95 +781,99 @@
   font-size: 15px;
 }
 
-.contenedor-serie .serie .descripcionSerie {
+.contenedor-serie .serie .informacionSerie {
+  width: 600px;
+}
+
+.contenedor-serie .serie .informacionSerie .descripcionSerie {
   margin: 10px;
   display: flex;
   flex-direction: column;
 }
 
-.contenedor-serie .serie .descripcionSerie h2 {
+.contenedor-serie .serie .informacionSerie .descripcionSerie h2 {
   font-family: "fuente1";
   color: #F2C53D;
   margin-bottom: 10px;
 }
 
-.contenedor-serie .serie .descripcionSerie h3 {
+.contenedor-serie .serie .informacionSerie .descripcionSerie h3 {
   font-family: "fuente2";
   font-size: 15px;
   color: #262626;
   margin-bottom: 10px;
 }
 
-.contenedor-serie .serie .descripcionSerie h4 {
+.contenedor-serie .serie .informacionSerie .descripcionSerie h4 {
   font-family: "fuente1";
   margin-bottom: 10px;
 }
 
-.contenedor-serie .serie .descripcionSerie .director {
+.contenedor-serie .serie .informacionSerie .descripcionSerie .director {
   display: flex;
 }
 
-.contenedor-serie .serie .descripcionSerie .director h3 {
+.contenedor-serie .serie .informacionSerie .descripcionSerie .director h3 {
   font-family: "fuente1";
   font-size: 15px;
 }
 
-.contenedor-serie .serie .descripcionSerie .director h4 {
+.contenedor-serie .serie .informacionSerie .descripcionSerie .director h4 {
   font-family: "fuente2";
   margin-left: 5px;
   font-size: 15px;
 }
 
-.contenedor-serie .serie .descripcionSerie .escritores {
+.contenedor-serie .serie .informacionSerie .descripcionSerie .escritores {
   display: flex;
 }
 
-.contenedor-serie .serie .descripcionSerie .escritores h3 {
+.contenedor-serie .serie .informacionSerie .descripcionSerie .escritores h3 {
   font-family: "fuente1";
   font-size: 15px;
 }
 
-.contenedor-serie .serie .descripcionSerie .escritores h4 {
+.contenedor-serie .serie .informacionSerie .descripcionSerie .escritores h4 {
   font-family: "fuente2";
   margin-left: 5px;
   font-size: 15px;
 }
 
-.contenedor-serie .serie .descripcionSerie .reparto {
+.contenedor-serie .serie .informacionSerie .descripcionSerie .reparto {
   display: flex;
 }
 
-.contenedor-serie .serie .descripcionSerie .reparto h3 {
+.contenedor-serie .serie .informacionSerie .descripcionSerie .reparto h3 {
   font-family: "fuente1";
   font-size: 15px;
 }
 
-.contenedor-serie .serie .descripcionSerie .reparto h4 {
+.contenedor-serie .serie .informacionSerie .descripcionSerie .reparto h4 {
   font-family: "fuente2";
   margin-left: 5px;
   font-size: 15px;
 }
 
-.contenedor-serie .serie .descripcionSerie .bandaSonora {
+.contenedor-serie .serie .informacionSerie .descripcionSerie .bandaSonora {
   display: flex;
 }
 
-.contenedor-serie .serie .descripcionSerie .bandaSonora h3 {
+.contenedor-serie .serie .informacionSerie .descripcionSerie .bandaSonora h3 {
   font-family: "fuente1";
   font-size: 15px;
 }
 
-.contenedor-serie .serie .descripcionSerie .bandaSonora h4 {
+.contenedor-serie .serie .informacionSerie .descripcionSerie .bandaSonora h4 {
   font-family: "fuente2";
   margin-left: 5px;
   font-size: 15px;
 }
 
-.contenedor-serie .serie .infoAdicional {
+.contenedor-serie .serie .informacionSerie .infoAdicional {
   display: flex;
 }
 
-.contenedor-serie .serie .infoAdicional .fuentes {
+.contenedor-serie .serie .informacionSerie .infoAdicional .fuentes {
   width: 80px;
   height: 80px;
   margin-left: 20px;
@@ -873,12 +885,218 @@
   background-color: #2626260e;
 }
 
-.contenedor-serie .serie .infoAdicional .fuentes h3 {
+.contenedor-serie .serie .informacionSerie .infoAdicional .fuentes h3 {
   font-family: "fuente1";
   font-size: 17px;
 }
 
-.contenedor-serie .serie .infoAdicional .fuentes img {
+.contenedor-serie .serie .informacionSerie .infoAdicional .fuentes img {
+  width: 50px;
+  height: 50px;
+}
+
+.contenedor-actores {
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor-actores .actores {
+  height: 150px;
+  width: 90%;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.contenedor-actores .actores h3 {
+  font-family: "fuente1";
+  font-size: 14px;
+}
+
+.contenedor-actores .actores img {
+  border-radius: 30px;
+  margin-top: 5px;
+}
+
+.contenedor-actores .actores .actor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenedor-actores .actores .actor img {
+  height: 96px;
+  width: 96px;
+}
+
+.contenedor-actores .actores .actor img:hover {
+  transform: scale(1.1);
+  transition: 2s;
+}
+
+.contenedor-documentales {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.contenedor-documentales .documental {
+  width: 90%;
+  height: 400px;
+  margin-top: 30px;
+  border-radius: 30px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.contenedor-documentales .documental .portadaDocumental {
+  background-image: url(../assets/img/documentales/metallica/Metallica_Some_Kind_of_Monster-582697774-large.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 350px;
+  height: 350px;
+  border-radius: 20px;
+}
+
+.contenedor-documentales .documental .portadaDocumental .top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contenedor-documentales .documental .portadaDocumental .top h3 {
+  background-color: #F2C53D;
+  color: #262626;
+  font-family: "fuente1";
+  width: 27px;
+  padding: 5px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.contenedor-documentales .documental .portadaDocumental .top h5 {
+  color: #F2F2F2;
+  font-family: "fuente2";
+  font-size: 15px;
+}
+
+.contenedor-documentales .documental .informacionDocumental {
+  width: 600px;
+}
+
+.contenedor-documentales .documental .informacionDocumental .descripcionDocumental {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedor-documentales .documental .informacionDocumental .descripcionDocumental h2 {
+  font-family: "fuente1";
+  color: #F2C53D;
+  margin-bottom: 10px;
+}
+
+.contenedor-documentales .documental .informacionDocumental .descripcionDocumental h3 {
+  font-family: "fuente2";
+  font-size: 15px;
+  color: #262626;
+  margin-bottom: 10px;
+}
+
+.contenedor-documentales .documental .informacionDocumental .descripcionDocumental h4 {
+  font-family: "fuente1";
+  margin-bottom: 10px;
+}
+
+.contenedor-documentales .documental .informacionDocumental .descripcionDocumental .director {
+  display: flex;
+}
+
+.contenedor-documentales .documental .informacionDocumental .descripcionDocumental .director h3 {
+  font-family: "fuente1";
+  font-size: 15px;
+}
+
+.contenedor-documentales .documental .informacionDocumental .descripcionDocumental .director h4 {
+  font-family: "fuente2";
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+.contenedor-documentales .documental .informacionDocumental .descripcionDocumental .escritores {
+  display: flex;
+}
+
+.contenedor-documentales .documental .informacionDocumental .descripcionDocumental .escritores h3 {
+  font-family: "fuente1";
+  font-size: 15px;
+}
+
+.contenedor-documentales .documental .informacionDocumental .descripcionDocumental .escritores h4 {
+  font-family: "fuente2";
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+.contenedor-documentales .documental .informacionDocumental .descripcionDocumental .reparto {
+  display: flex;
+}
+
+.contenedor-documentales .documental .informacionDocumental .descripcionDocumental .reparto h3 {
+  font-family: "fuente1";
+  font-size: 15px;
+}
+
+.contenedor-documentales .documental .informacionDocumental .descripcionDocumental .reparto h4 {
+  font-family: "fuente2";
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+.contenedor-documentales .documental .informacionDocumental .descripcionDocumental .bandaSonora {
+  display: flex;
+}
+
+.contenedor-documentales .documental .informacionDocumental .descripcionDocumental .bandaSonora h3 {
+  font-family: "fuente1";
+  font-size: 15px;
+}
+
+.contenedor-documentales .documental .informacionDocumental .descripcionDocumental .bandaSonora h4 {
+  font-family: "fuente2";
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+.contenedor-documentales .documental .informacionDocumental .infoAdicional {
+  display: flex;
+}
+
+.contenedor-documentales .documental .informacionDocumental .infoAdicional .fuentes {
+  width: 80px;
+  height: 80px;
+  margin-left: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #2626260e;
+}
+
+.contenedor-documentales .documental .informacionDocumental .infoAdicional .fuentes h3 {
+  font-family: "fuente1";
+  font-size: 17px;
+}
+
+.contenedor-documentales .documental .informacionDocumental .infoAdicional .fuentes img {
   width: 50px;
   height: 50px;
 }
