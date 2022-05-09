@@ -3,7 +3,7 @@
 .contenedorWeb {
   display: grid;
   grid-template-rows: auto;
-  grid-template-columns: 200px auto;
+  grid-template-columns: 230px auto;
   grid-template-areas: "nav main";
 }
 
@@ -929,14 +929,17 @@
   grid-area: nav;
   background-color: #ffffff;
   padding: 20px;
-  height: 660px;
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 550px;
   border-radius: 20px;
+  position: fixed;
 }
 
 .navegador .navegadorElementos {
   display: flex;
   flex-direction: column;
-  height: 80%;
+  height: 75%;
   justify-content: space-around;
 }
 
