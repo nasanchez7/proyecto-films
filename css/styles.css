@@ -1590,6 +1590,57 @@
     padding: 20px;
     flex-direction: column;
   }
+  /*Seccion Series*/
+  .contenedor-serie .serie {
+    width: 400px;
+    flex-direction: column;
+    height: 850px;
+    align-items: flex-start;
+  }
+  .contenedor-serie .serie .portadaSerie {
+    width: 100%;
+    height: 500px;
+  }
+  .contenedor-serie .serie .informacionSerie {
+    width: 90%;
+  }
+  .contenedor-serie .serie .informacionSerie .infoAdicional .fuentes {
+    margin-left: 10px;
+  }
+  /*Seccion Documentales*/
+  .contenedor-documentales .documental {
+    width: 400px;
+    flex-direction: column;
+    height: 850px;
+    align-items: flex-start;
+  }
+  .contenedor-documentales .documental .portadaDocumental {
+    width: 100%;
+    height: 500px;
+  }
+  .contenedor-documentales .documental .informacionDocumental {
+    width: 90%;
+  }
+  .contenedor-documentales .documental .informacionDocumental .infoAdicional .fuentes {
+    margin-left: 10px;
+  }
+  /*Seccion Videojuegos*/
+  .contenedor-juegos .juego {
+    width: 400px;
+    flex-direction: column;
+    height: 850px;
+    align-items: flex-start;
+  }
+  .contenedor-juegos .juego .portadaJuego {
+    width: 100%;
+    height: 500px;
+  }
+  .contenedor-juegos .juego .informacionJuego {
+    width: 90%;
+  }
+  .contenedor-juegos .juego .informacionJuego .infoAdicional .fuentes {
+    margin-left: 10px;
+  }
 }
 
 body {
