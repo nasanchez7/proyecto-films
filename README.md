@@ -13,6 +13,10 @@
 - Sass
 - Photoshop
 
+## Librerias usadas
+
+- Animate.css
+
 ## Diseñada y construida por
 
 - Nadir Blanco Sanchez
