@@ -6,7 +6,7 @@
 
 - El objetivo de mi proyecto es plasmar mi top personal de peliculas, series, documentales y videojuegos que he disfrutado a lo largo de mi vida en una atractiva e intuitiva pagina web creada por mi.
 
-##Herramientas usadas hasta el momento
+## Herramientas usadas hasta el momento
 
 - Html
 - Css
