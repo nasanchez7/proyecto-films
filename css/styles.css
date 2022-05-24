@@ -1454,6 +1454,147 @@
   margin-right: 5px;
 }
 
+/* Tablet */
+@media (max-width: 768px) {
+  /* Grillas */
+  .contenedorWeb {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 230px auto;
+    grid-template-areas: "nav main" "nav main";
+  }
+  .contenedorPrincipal {
+    display: grid;
+    grid-template-rows: 670px 750px 200px;
+    grid-template-columns: auto;
+    grid-template-areas: "principal" "secundario" "busqueda";
+  }
+  .contenedorSecundario {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    grid-template-areas: "peliculas";
+  }
+  /*Navegador*/
+  .navegador {
+    display: flex;
+    flex-direction: column;
+  }
+  /*Main*/
+  .contenidoPrincipal .peliculasPrincipales {
+    width: 100%;
+  }
+  .contenidoPrincipal .peliculasPrincipales .contenedorPeliculas {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenidoPrincipal .peliculasPrincipales .contenedorPeliculas .primeraPelicula {
+    margin-bottom: 10px;
+  }
+  .contenidoPrincipal .peliculasSecundarias {
+    width: 100%;
+  }
+  .contenidoPrincipal .peliculasSecundarias .contenedorSeries {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenidoPrincipal .peliculasSecundarias .contenedorSeries .primeraSerie {
+    margin-bottom: 10px;
+  }
+  .contenidoPrincipal .peliculasSecundarias .contenedorSeries .segundaSerie {
+    margin-bottom: 10px;
+  }
+  .contenidoPrincipal .busqueda {
+    width: 100%;
+    padding-top: 0px;
+    justify-content: center;
+  }
+  .contenidoPrincipal .busqueda .contenedorStreaming {
+    flex-direction: row;
+    height: 100px;
+    width: 60%;
+    margin-left: 0px;
+  }
+  /*Seccion Peliculas*/
+  .contenedor-pelicula .pelicula {
+    width: 450px;
+    flex-direction: column;
+    height: 850px;
+    align-items: flex-start;
+  }
+  .contenedor-pelicula .pelicula .portadaPelicula {
+    width: 100%;
+    height: 500px;
+  }
+  .contenedor-pelicula .pelicula .informacionPelicula {
+    width: 90%;
+  }
+  .contenedor-pelicula .pelicula .informacionPelicula .infoAdicional .fuentes {
+    margin-left: 10px;
+  }
+  .contenedor-actores {
+    width: 90%;
+  }
+  .contenedor-actores .actores {
+    height: auto;
+    width: 200px;
+    padding: 20px;
+    flex-direction: column;
+  }
+  /*Seccion Series*/
+  .contenedor-serie .serie {
+    width: 450px;
+    flex-direction: column;
+    height: 850px;
+    align-items: flex-start;
+  }
+  .contenedor-serie .serie .portadaSerie {
+    width: 100%;
+    height: 500px;
+  }
+  .contenedor-serie .serie .informacionSerie {
+    width: 90%;
+  }
+  .contenedor-serie .serie .informacionSerie .infoAdicional .fuentes {
+    margin-left: 10px;
+  }
+  /*Seccion Documentales*/
+  .contenedor-documentales .documental {
+    width: 450px;
+    flex-direction: column;
+    height: 850px;
+    align-items: flex-start;
+  }
+  .contenedor-documentales .documental .portadaDocumental {
+    width: 100%;
+    height: 500px;
+  }
+  .contenedor-documentales .documental .informacionDocumental {
+    width: 90%;
+  }
+  .contenedor-documentales .documental .informacionDocumental .infoAdicional .fuentes {
+    margin-left: 10px;
+  }
+  /*Seccion Videojuegos*/
+  .contenedor-juegos .juego {
+    width: 450px;
+    flex-direction: column;
+    height: 850px;
+    align-items: flex-start;
+  }
+  .contenedor-juegos .juego .portadaJuego {
+    width: 100%;
+    height: 500px;
+  }
+  .contenedor-juegos .juego .informacionJuego {
+    width: 90%;
+  }
+  .contenedor-juegos .juego .informacionJuego .infoAdicional .fuentes {
+    margin-left: 10px;
+  }
+}
+
+/* Mobile */
 @media (max-width: 480px) {
   /* Grillas */
   .contenedorWeb {
