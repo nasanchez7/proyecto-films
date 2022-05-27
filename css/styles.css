@@ -1382,7 +1382,7 @@
 }
 
 .navegador .botonNav i {
-  color: #2626267c;
+  color: #2626268e;
   margin-right: 10px;
 }
 
@@ -1431,7 +1431,7 @@
 .navegador ul li a {
   font-size: 14px;
   text-decoration: none;
-  color: #2626267c;
+  color: #2626268e;
   font-family: "fuente1";
 }
 
@@ -1439,7 +1439,7 @@
   display: flex;
   align-content: center;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 30px;
   padding: 5px;
 }
 
