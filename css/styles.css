@@ -1436,6 +1436,7 @@
   align-content: center;
   align-items: center;
   margin-top: 40px;
+  padding: 5px;
 }
 
 .navegador .misDatos h3 {
@@ -1452,6 +1453,17 @@
   height: 50px;
   width: 50px;
   margin-right: 5px;
+}
+
+.navegador .misDatos .gitHub {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.navegador .misDatos .gitHub h3 {
+  font-size: 11px;
 }
 
 /* Tablet */
