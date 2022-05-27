@@ -19,7 +19,7 @@
             background-color: $colorbotonnav;
             padding: 10px;
             border-radius: 15px;
-            width: 150px;
+            width: 100%;
             display: flex;
             align-items: center;
         }
@@ -39,9 +39,14 @@
     .logo{
         display: flex;
         justify-content: center;
+        align-items: center;
         a{
             text-decoration: none;
             display: flex;
+        }
+        img{
+            width: 100px;
+            height: 60px;
         }
         h1{
             font-family: "fuente2";

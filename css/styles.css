@@ -1376,7 +1376,7 @@
   background-color: #26262608;
   padding: 10px;
   border-radius: 15px;
-  width: 150px;
+  width: 100%;
   display: flex;
   align-items: center;
 }
@@ -1397,11 +1397,17 @@
 .navegador .logo {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .navegador .logo a {
   text-decoration: none;
   display: flex;
+}
+
+.navegador .logo img {
+  width: 100px;
+  height: 60px;
 }
 
 .navegador .logo h1 {
