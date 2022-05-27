@@ -1359,9 +1359,7 @@
   grid-area: nav;
   background-color: #ffffff;
   padding: 20px;
-  margin-top: 10px;
-  margin-left: 10px;
-  height: 550px;
+  height: 100%;
   border-radius: 20px;
   position: fixed;
 }
