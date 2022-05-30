@@ -73,8 +73,7 @@
         display: flex;
         align-content: center;
         align-items: center;
-        margin-top: 30px;
-        padding: 5px;
+        margin-top: 20px;
         h3{
             font-family: "fuente1";
             font-size: 13px;
@@ -89,6 +88,15 @@
             margin-right: 5px;
         }
         .gitHub{
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: black;
+            h3{
+                font-size: 11px;
+            }
+        }
+        .linkedin{
             display: flex;
             align-items: center;
             text-decoration: none;

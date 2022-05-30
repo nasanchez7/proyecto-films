@@ -1438,8 +1438,7 @@
   display: flex;
   align-content: center;
   align-items: center;
-  margin-top: 30px;
-  padding: 5px;
+  margin-top: 20px;
 }
 
 .navegador .misDatos h3 {
@@ -1466,6 +1465,17 @@
 }
 
 .navegador .misDatos .gitHub h3 {
+  font-size: 11px;
+}
+
+.navegador .misDatos .linkedin {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.navegador .misDatos .linkedin h3 {
   font-size: 11px;
 }
 
