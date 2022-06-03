@@ -1405,8 +1405,9 @@
 }
 
 .navegador .logo img {
-  width: 90px;
-  height: 50px;
+  width: 85px;
+  height: 75px;
+  border-radius: 15px;
 }
 
 .navegador .logo h1 {
