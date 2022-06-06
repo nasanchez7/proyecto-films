@@ -1361,6 +1361,9 @@
   padding: 20px;
   height: 100%;
   position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .navegador .navegadorElementos {
@@ -1385,6 +1388,10 @@
   margin-right: 10px;
 }
 
+.navegador .botonActivo button {
+  background-color: #262626;
+}
+
 .navegador .botonActivo i {
   color: #F2C53D;
 }
@@ -1402,12 +1409,6 @@
 .navegador .logo a {
   text-decoration: none;
   display: flex;
-}
-
-.navegador .logo img {
-  width: 85px;
-  height: 75px;
-  border-radius: 15px;
 }
 
 .navegador .logo h1 {
@@ -1439,7 +1440,6 @@
   display: flex;
   align-content: center;
   align-items: center;
-  margin-top: 20px;
 }
 
 .navegador .misDatos h3 {

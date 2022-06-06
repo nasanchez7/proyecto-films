@@ -6,6 +6,9 @@
     padding: 20px;
     height: 100%;
     position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     .navegadorElementos{
         display: flex;
         flex-direction: column;
@@ -28,11 +31,14 @@
         }
     }
     .botonActivo{
+        button{
+            background-color: $colorbotonnavActivo;
+        }
         i{
-            color: $colorterciario;
+            color: $colorletranavActivo;
         }
         a{
-            color: $colorterciario;
+            color: $colorletranavActivo;
         }
     }
     .logo{
@@ -42,11 +48,6 @@
         a{
             text-decoration: none;
             display: flex;
-        }
-        img{
-            width: 85px;
-            height: 75px;
-            border-radius: 15px;
         }
         h1{
             font-family: "fuente2";
@@ -74,7 +75,6 @@
         display: flex;
         align-content: center;
         align-items: center;
-        margin-top: 20px;
         h3{
             font-family: "fuente1";
             font-size: 13px;
