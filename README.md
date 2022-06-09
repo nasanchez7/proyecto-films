@@ -12,6 +12,7 @@
 - Css
 - Sass
 - Photoshop
+- Illustrator
 
 ## Librerias usadas
 
