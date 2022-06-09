@@ -1375,7 +1375,7 @@
 
 .navegador .botonNav button {
   border: none;
-  background-color: #26262608;
+  background-color: rgba(255, 255, 255, 0);
   padding: 10px;
   border-radius: 15px;
   width: 100%;
@@ -1384,12 +1384,12 @@
 }
 
 .navegador .botonNav i {
-  color: #2626268e;
+  color: #26262665;
   margin-right: 10px;
 }
 
 .navegador .botonActivo button {
-  background-color: #262626;
+  background-color: black;
 }
 
 .navegador .botonActivo i {
@@ -1432,7 +1432,7 @@
 .navegador ul li a {
   font-size: 14px;
   text-decoration: none;
-  color: #2626268e;
+  color: #26262665;
   font-family: "fuente1";
 }
 

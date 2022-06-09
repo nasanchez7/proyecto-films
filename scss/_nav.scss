@@ -18,7 +18,7 @@
     .botonNav{
         button{
             border: none;
-            background-color: $colorbotonnav;
+            background-color: rgba(255, 255, 255, 0);
             padding: 10px;
             border-radius: 15px;
             width: 100%;
@@ -32,7 +32,7 @@
     }
     .botonActivo{
         button{
-            background-color: $colorbotonnavActivo;
+            background-color: black;
         }
         i{
             color: $colorletranavActivo;
